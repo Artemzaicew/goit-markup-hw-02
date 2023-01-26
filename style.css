@@ -1,0 +1,107 @@
+/* basic text color and secondary bcg color #2E2F42 */
+/* secondary text color  #434455 */
+/* accent #4D5AE5 */
+/* basic bcg color #E5E5E5 */
+/* white #FFFFFF */
+/* footer text color #E7E9FC */
+/* logo footer color #F4F4FD */
+
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --white-color: #FFFFFF ;
+    --section-team-bcg-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --button-hover-portfolio: #404BBF;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--secondary-text-color);
+}
+
+.list {
+   list-style: none;
+}
+
+/* logo headder */
+.logo-header {
+    color: var(--primary-text-color);
+}
+
+span {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color)
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--primary-text-color);
+}
+
+/* button-service */
+.button-service {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.button-service:hover,
+.button-service:focus {
+    background-color: var(--primary-text-color);
+}
+
+/* section-title */
+.section-title {
+    color: var(--primary-text-color);
+}
+
+/* Peculiarity title */
+.Peculiarity .title {
+    color: var(--primary-text-color);
+}
+
+/* section tem bcg color */
+.team {
+    background-color: var(--section-team-bcg-color);
+}
+
+/* footer color */
+.footer {
+    color: var(--footer-text-color);
+    background-color: var(--primary-text-color);
+}
+
+/* logo footer */
+.logo-footer {
+    color: var(--section-team-bcg-color)
+}
+
+
+
+/* portfolio.html____________________ 
+button*/
+
+
+
+.button {
+color: var(--accent-color);
+background-color: var(--section-team-bcg-color);
+cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--button-hover-portfolio);
+}
